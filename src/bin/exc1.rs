@@ -4,10 +4,7 @@ const SAMPLES_NUM: u32 = 5000;
 const INTERVALS_NUM: usize = 50;
 const B_INIT: f32 = 0.123;
 
-fn random(seed: f32) -> f32 {
-    let newval = (seed+3.14159).powf(8.);
-    newval - newval.trunc()
-}
+use arsak_zhak_programmirovanie_igr_i_golovolomok::*;
 
 fn main() {
     let mut b = B_INIT;
