@@ -2,5 +2,5 @@
 name = "arsak_zhak_programmirovanie_igr_i_golovolomok"
 version = "0.1.0"
 edition = "2018"
-default-run = "exc1"
+default-run = "exc1_2"
 
